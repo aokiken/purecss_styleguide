@@ -5,14 +5,14 @@ import styleguideTasks from 'sass-styleguide-with-pug';
 gulp.task('styleguideTasks', (callback) => styleguideTasks({
   styleguideDirName: 'docs',
   sassDirPath: 'src/sass',
-  pugDirPath: 'src/pug/docs',
+  pugDirPath: 'src/pug/styleguide',
   stylesheetPath: 'dest/css/style.css',
   imageDirPath: 'dest/images',
   fontDirPath: 'dest/fonts',
 }, callback));
 
 gulp.task('pugTasks', (callback) => pugTasks({
-  srcPath: ['src/pug/**/*.pug', '!src/pug/{layouts,docs}/**/*.pug'],
+  srcPath: ['src/pug/**/*.pug', '!src/pug/{layouts,styleguide}/**/*.pug'],
   destPath: 'dest',
   pug: { pretty: true },
 }, callback));
