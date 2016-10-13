@@ -1,0 +1,16 @@
+form.pure-form.pure-form-stacked
+  fieldset
+    legend A Stacked Form
+    label(for="email") Email
+      input#email(type="email" placeholder="Email")
+    label(for="password") Password
+      input#password(type="password" placeholder="Password")
+    label(for="state") State
+    select#state
+      option AL
+      option CA
+      option IL
+    label(for="remember" class="pure-checkbox")
+      input#remember(type="checkbox")
+      | Remember me
+    button.pure-button.pure-button-primary(type="submit") Sign in

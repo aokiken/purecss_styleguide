@@ -1,0 +1,34 @@
+/*
+@title: 5ths-Based Units
+@pug: layouts/grids/5ths-based_units.pug
+@description: gridサンプル
+@tags: layout,grid
+*/
+
+/*
+@title: 24ths-Based Units
+@pug: layouts/grids/24ths-based_units.pug
+@description: gridサンプル
+@tags: layout,grid
+*/
+.grids-unit {
+  margin: 0.25em 0;
+  padding-left: 4.5em;
+  .grids-unit-width {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    width: 4em;
+    margin-left: -4.5em;
+    padding-right: 0.5em;
+    line-height: 2em;
+    text-align: right;
+    vertical-align: baseline;
+  }
+  .grids-unit-details {
+    position: relative;
+    background: #fafafa;
+  }
+  .grids-unit-bar {
+    height: 2em;
+    background: #eee;
+  }
+}
