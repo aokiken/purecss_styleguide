@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:styleguide": "npm run styleguideTasks && npm run local_http_server:styleguide",
+    "local_http_server:styleguide": "./node_modules/http-server/bin/http-server styleguide",
     "styleguideTasks": "gulp sassTasks && gulp fontsTasks&& gulp styleguideTasks",
     "pugTasks": "gulp pugTasks",
     "sassTasks": "gulp sassTasks",
@@ -25,6 +27,7 @@
     "gulp-pug": "^3.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.7.3",
+    "http-server": "^0.9.0",
     "sass-styleguide-with-pug": "0.0.4"
   },
   "dependencies": {
