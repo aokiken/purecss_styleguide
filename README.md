@@ -2,7 +2,7 @@
 
 inspired [Pure](http://purecss.io/)
 
-[gulp-pug-template-underscore](https://www.npmjs.com/package/gulp-pug-template-underscore)を使ったサンプルプロジェクト
+[sass-styleguide-with-pug](https://www.npmjs.com/package/sass-styleguide-with-pug)を使ったサンプルプロジェクト
 
 [gh-pages: purecss styleguide](https://aokiken.github.io/purecss_styleguide/)
 
