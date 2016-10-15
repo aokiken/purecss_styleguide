@@ -28,7 +28,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.7.3",
     "http-server": "^0.9.0",
-    "sass-styleguide-with-pug": "0.0.4"
+    "sass-styleguide-with-pug": "latest"
   },
   "dependencies": {
     "font-awesome": "^4.6.3",
